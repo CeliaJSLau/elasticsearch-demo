@@ -1,0 +1,29 @@
+{
+    "settings" : {
+        "number_of_shards" : 10,
+         "refresh_interval" : "1s"
+    },
+    "mappings" : {
+        "_doc" : {
+            "properties" : {
+                "uid" : { "type" : "long" },
+                "phone" : { "type" : "long" },
+                "userid" : { "type" : "keyword" },
+
+                "message" : { "type" : "keyword" },
+                "msgcode" : { "type" : "long" },
+                "price" : { "type" : "double","index": "false" },
+             "sendtime" : {
+                  "type" : "date",
+                  "format" : "yyyy-MM-dd HH:mm:ss.SSS"
+              },
+             "sendtime2" : {
+                  "type" : "date",
+                  "format" : "yyyy-MM-dd HH:mm:ss.SSS"
+              },
+                "sendtm" : { "type" : "long" },
+                  "sendtm2" : { "type" : "long" }
+            }
+        }
+    }
+}
