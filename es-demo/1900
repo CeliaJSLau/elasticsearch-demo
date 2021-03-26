@@ -1,0 +1,1 @@
+{"error":{"root_cause":[{"type":"illegal_argument_exception","reason":"invalid version format: -XGET HTTP://LOCALHOST:9200/MUSIC/SONGS/_SEARCH?Q=YEAR: HTTP/1.1"}],"type":"illegal_argument_exception","reason":"invalid version format: -XGET HTTP://LOCALHOST:9200/MUSIC/SONGS/_SEARCH?Q=YEAR: HTTP/1.1"},"status":400}

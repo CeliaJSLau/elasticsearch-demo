@@ -1,0 +1,14 @@
+curl -X PUT 'localhost:9200/kafei/article/1' -H 'Content-Type: application/json' -d '
+{
+  "title": "滴滴与软银成立合资公司，今年秋季将在日本上线打车功能",
+  "desc": "澎湃新闻消息",
+  "content": "澎湃新闻消息，网约车平台滴滴与日本投资集团软银成立了一家合资公司"
+}'
+
+
+curl -X PUT 'localhost:9200/kafei/article/1' -H 'Content-Type: application/json' -d '
+{		
+  "title": "體育",
+  "desc": "大埔體育館",
+  "content": "大埔月明街體育館"
+}'
